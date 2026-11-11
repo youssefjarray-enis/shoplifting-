@@ -1,0 +1,32 @@
+{
+  "thresholds": {
+    "vol_en_poche": 0.72,
+    "cache_sous_vetement": 0.78,
+    "cache_sac_a_dos": 0.70,
+    "cache_sac_a_main": 0.75
+  },
+  "filter": {
+    "smoothing_window": 20,
+    "trigger_threshold": 0.68,
+    "cancel_threshold": 0.35,
+    "cooldown_s": 3.0,
+    "min_samples": 8,
+    "min_shelf_dwell_s": 1.0
+  },
+  "zones": {
+    "normalized": true,
+    "shelf": [[[0.50, 0.70], [0.95, 0.70], [0.95, 1.0], [0.50, 1.0]]],
+    "fitting_room": [[[0.03, 0.70], [0.25, 0.70], [0.25, 1.0], [0.03, 1.0]]]
+  },
+  "staff": {
+    "hsv_ranges": [[[100, 100, 50], [130, 255, 255]]]
+  },
+  "runtime": {
+    "frame_skip": null,
+    "adaptive_skip": true,
+    "max_poses_per_cycle": 8,
+    "detection_conf": 0.4,
+    "camera_id": "cam01",
+    "save_screenshots": true
+  }
+}

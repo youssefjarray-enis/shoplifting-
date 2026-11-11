@@ -1,0 +1,8 @@
+# Production (GPU NVIDIA GTX 1660 6 Go minimum recommande)
+numpy>=1.24,<2
+scipy
+opencv-python==4.9.0.80
+torch>=2.1.0
+ultralytics>=8.3.0
+deep-sort-realtime==1.3.2
+mediapipe==0.10.14

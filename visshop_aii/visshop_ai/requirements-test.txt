@@ -1,0 +1,4 @@
+# Demo + tests : aucune dependance lourde (pas de torch / mediapipe / GPU)
+numpy
+opencv-python-headless
+pytest

@@ -1,0 +1,25 @@
+{
+  "thresholds": {
+    "vol_en_poche": 0.72,
+    "cache_sous_vetement": 0.78,
+    "cache_sac_a_dos": 0.70,
+    "cache_sac_a_main": 0.75
+  },
+  "filter": {
+    "smoothing_window": 20,
+    "trigger_threshold": 0.68,
+    "cancel_threshold": 0.35,
+    "cooldown_s": 3.0,
+    "min_samples": 8
+  },
+  "zones": { "normalized": true, "shelf": [], "fitting_room": [] },
+  "staff": { "hsv_ranges": [] },
+  "runtime": {
+    "frame_skip": 3,
+    "adaptive_skip": false,
+    "max_poses_per_cycle": 4,
+    "detection_conf": 0.35,
+    "bag_memory_s": 1.5,
+    "camera_id": "video_test"
+  }
+}
